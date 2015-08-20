@@ -27,7 +27,7 @@ $("#search-menu").click(function (e) {
 });
 
 //<![CDATA[
-$(document).ready(function () {
+(function () {
     if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
         window.location.href = "http://ridhan.tumblr.com";
     }
