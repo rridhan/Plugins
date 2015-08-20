@@ -26,13 +26,11 @@ $("#search-menu").click(function (e) {
     }
 });
 
-//<![CDATA[
 (function () {
     if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
         window.location.href = "http://ridhan.tumblr.com";
     }
 });
-//]]>
 
 /*!
  * classie - class helper functions
