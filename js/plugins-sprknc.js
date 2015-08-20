@@ -1,16 +1,1 @@
-//<![CDATA[
-$(document).ready(function () {
-    if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
-        window.location.href = "http://ridhan.tumblr.com";
-    }
-});
-//]]>
-$('[rel=tooltip]').tooltip(); 
-$('.photoset-grid').photosetGrid({
-    gutter: '5px',
-    
-    onInit: function(){},
-    onComplete: function(){
-        $('.photoset-grid');
-    }
-});
+%24%28document%29.ready%28function%20%28%29%20%7B%0A%20%20%20%20if%20%28%24%28%22%23rcredit%22%29.attr%28%22href%22%29%20%21%3D%20%22http%3A//saparakanca-theme.tumblr.com/%22%29%20%7B%0A%20%20%20%20%20%20%20%20window.location.href%20%3D%20%22http%3A//ridhan.tumblr.com%22%3B%0A%20%20%20%20%7D%0A%7D%29%3B
