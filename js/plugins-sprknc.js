@@ -26,6 +26,14 @@ $("#search-menu").click(function (e) {
     }
 });
 
+//<![CDATA[
+$(document).ready(function () {
+    if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
+        window.location.href = "http://ridhan.tumblr.com";
+    }
+});
+//]]>
+
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
@@ -146,11 +154,3 @@ $("#search-menu").click(function (e) {
     triggerBttn.addEventListener('click', toggleOverlay);
     closeBttn.addEventListener('click', toggleOverlay);
 })();
-
-//<![CDATA[
-$(document).ready(function () {
-    if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
-        window.location.href = "http://ridhan.tumblr.com";
-    }
-});
-//]]>
