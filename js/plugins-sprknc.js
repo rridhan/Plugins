@@ -145,12 +145,12 @@ $("#search-menu").click(function (e) {
 
     triggerBttn.addEventListener('click', toggleOverlay);
     closeBttn.addEventListener('click', toggleOverlay);
-})();
+});
 
 //<![CDATA[
 (function () {
     if ($("#rcredit").attr("href") != "http://saparakanca-theme.tumblr.com/") {
         window.location.href = "http://ridhan.tumblr.com";
     }
-});
+})();
 //]]>
