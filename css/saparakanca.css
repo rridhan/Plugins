@@ -1,7 +1,7 @@
 /*
 Theme Name: Saparakanca
 Theme Framework: Bootstrap
-Theme URI: http://sa/
+Theme URI: http://saparakanca-theme.tumblr.com/
 Author: ThemeWagon
 Author URI: http://ridhan.tumblr.com
 Description: The Minimalist
@@ -11,8 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: saparakanca, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain: saparakanca
 */
-@import "http://fonts.googleapis.com/css?family=Lato:300,400";
-@import "http://fonts.googleapis.com/css?family=Ubuntu:300,400";
 * {  outline: none }
 h1,
 h2,
